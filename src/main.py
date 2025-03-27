@@ -1,6 +1,6 @@
 from processar_dados import carregar_dados
 
-# Chama a função para carregar os dados
+# Chama a função para carregar os dadoss
 emails, vendas, lojas, dicionario_lojas, dia_indicador = carregar_dados()
 
 # Exibir os primeiros registros de cada DataFrame

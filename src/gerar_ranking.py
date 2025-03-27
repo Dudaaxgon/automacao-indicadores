@@ -8,7 +8,7 @@ def gerar_ranking(vendas):
     Função que gera o ranking de lojas com base em faturamento,
     para o dia ou para o ano, dependendo dos dados fornecidos.
     """
-    # Suponha que 'vendas' seja um DataFrame com os dados de vendas
+    # Suponha que 'vendas' seja um DataFrame com os dadoss de vendas
     # Agrupar por loja e calcular o faturamento
     faturamento_lojas=vendas.groupby('Loja')['Valor Final'].sum()
 

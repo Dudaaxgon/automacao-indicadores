@@ -3,7 +3,7 @@ import pathlib
 def salvar_relatorios(dicionario_lojas, dia_indicador):
     """Salva os relatórios de vendas das lojas em pastas organizadas por loja."""
 
-    # Criar diretório de backup se não existir
+    # Criar diretório de backup se não existirr
     caminho_backup = pathlib.Path("Backup Arquivos Lojas")
     caminho_backup.mkdir(exist_ok=True)
 

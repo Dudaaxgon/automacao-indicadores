@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-# Função para carregar dados (exemplo simples)
+# Função para carregar dados (exemplo simples))
 def carregar_dados():
     # Suponha que você tenha arquivos CSV com esses dados, ou crie dados fictícios para teste
     emails = pd.DataFrame({

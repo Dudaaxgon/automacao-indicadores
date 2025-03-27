@@ -4,7 +4,7 @@ from pathlib import Path
 def carregar_dados():
     """Carrega os arquivos de dados (Emails, Vendas e Lojas) e organiza por loja."""
 
-    # Definir caminho da pasta base do projeto
+    # Definir caminho da pasta base do projetoo
     base_path = Path(__file__).parent.parent / "data"
 
     # Importar bases de dados

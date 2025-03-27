@@ -2,7 +2,7 @@ import pathlib
 import win32com.client as win32
 from processar_dados import carregar_dados
 
-# Carregar dados
+# Carregar dadoss
 emails, vendas, lojas, dicionario_lojas, dia_indicador = carregar_dados()
 
 # Definir caminho de backup
